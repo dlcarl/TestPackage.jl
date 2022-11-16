@@ -1,0 +1,13 @@
+name = "TestPackage"
+uuid = "471c8a0a-4d12-4580-a8c5-d59bcbd89b5d"
+authors = ["David Carl"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
